@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaStories</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fab fa-instagram"></i>
+                <h1>InstaStories</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="intro">
+            <h2>Download Instagram Stories with Ease</h2>
+            <p>InstaStories allows you to download and save Instagram stories from your favorite accounts. Simply enter the story URL, and our tool will do the rest.</p>
+        </div>
+        <div class="usage-advantages">
+            <h3>Usage and Advantages</h3>
+            <ul>
+                <li>Save your favorite Instagram stories to enjoy them anytime, even after they expire.</li>
+                <li>Easily download both video and image stories with just a few clicks.</li>
+                <li>No need to take screenshots or record your screen – our tool does it all for you.</li>
+                <li>Access stories from private accounts or accounts you don't follow.</li>
+                <li>Save data by downloading stories instead of streaming them repeatedly.</li>
+            </ul>
+        </div>
+        <div class="input-container">
+            <input type="text" id="storyUrl" placeholder="Enter Instagram Story URL">
+            <button id="downloadBtn">Download</button>
+        </div>
+        <div id="downloadContainer"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023 InstaStories. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

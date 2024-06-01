@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 24px;
+    color: #e1306c;
+    margin-right: 8px;
+}
+
+.nav-links a {
+    color: #262626;
+    text-decoration: none;
+    margin-right: 16px;
+    font-weight: 500;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.usage-advantages {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.usage-advantages h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.usage-advantages ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.usage-advantages li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.usage-advantages li::before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #e1306c;
+    position: absolute;
+    left: 0;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#storyUrl {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#downloadBtn {
+    background-color: #e1306c;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#downloadContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #262626;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
